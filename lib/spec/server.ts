@@ -69,6 +69,7 @@ export interface Server {
         background?: string
         newsTag?: string
         wiki?: boolean
+        wikiUrl?: string
     }
 
     /**
