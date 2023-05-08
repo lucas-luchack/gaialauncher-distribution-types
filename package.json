@@ -1,7 +1,7 @@
 {
-  "name": "helios-distribution-types",
+  "name": "gaialauncher-distribution-types",
   "version": "1.2.0",
-  "description": "Type interfaces for Helios Launcher's distribution specification.",
+  "description": "Type interfaces for Gaia Launcher's distribution specification.",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dscalzi/helios-distribution-types.git"
+    "url": "git+https://github.com/lucas-luchack/gaialauncher-distribution-types.git"
   },
-  "author": "Daniel Scalzi",
+  "author": "Daniel Scalzi // Lucas Luc'HACK",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/dscalzi/helios-distribution-types/issues"
+    "url": "https://github.com/lucas-luchack/gaialauncher-distribution-types/issues"
   },
-  "homepage": "https://github.com/dscalzi/helios-distribution-types#readme",
+  "homepage": "https://github.com/lucas-luchack/gaialauncher-distribution-types#readme",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.55.0",
     "@typescript-eslint/parser": "^5.55.0",

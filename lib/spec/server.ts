@@ -63,6 +63,14 @@ export interface Server {
         largeImageKey: string
     }
 
+    launcherPage?: {
+        icon?: string
+        logo?: string
+        background?: string
+        newsTag?: string
+        wiki?: boolean
+    }
+
     /**
      * Only one server in the array should have the mainServer property enabled. This
      * will tell the launcher that this is the default server to select if either the
@@ -79,6 +87,11 @@ export interface Server {
      * not be autoconnected to even when the user has the autoconnect setting enabled.
      */
     autoconnect: boolean
+
+    /**
+     * The code used to lock the server. If this is set, the user will have to enter this code in the settings to connect to the server.
+     */
+    serverCode?: string
 
     /**
      * An array of module objects.
