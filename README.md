@@ -1,7 +1,7 @@
-## Helios Distribution Types
+## Gaia Launcher Distribution Types
 
-This is a utility repository containing type mappings for Helios Launcher's distribution specification.
+This is a utility repository containing type mappings for Gaia Launcher's distribution specification.
 
 ### Usage
 
-* `npm i helios-distribution-types`
+* `npm i gaialauncher-distribution-types`
