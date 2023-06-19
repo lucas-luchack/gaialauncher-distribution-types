@@ -20,11 +20,6 @@ export interface Server {
     description: string
 
     /**
-     * A URL to the server's icon. Will be displayed on the UI.
-     */
-    icon: string
-
-    /**
      * The version of the server configuration.
      */
     version: string

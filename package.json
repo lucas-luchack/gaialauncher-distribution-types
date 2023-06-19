@@ -1,6 +1,6 @@
 {
   "name": "gaialauncher-distribution-types",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Type interfaces for Gaia Launcher's distribution specification.",
   "main": "build/index.js",
   "types": "build/index.d.ts",
